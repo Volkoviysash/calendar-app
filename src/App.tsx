@@ -1,13 +1,17 @@
-import React, { FC } from "react";
-import logo from "./logo.svg";
-import "./App.css";
+import { FC } from "react";
 import AppRouter from "./components/AppRouter";
+import Navbar from "./components/Navbar";
+import { Layout } from "antd";
+import "antd/dist/reset.css";
 
 const App: FC = () => {
   return (
-    <div className="App">
-      <AppRouter />
-    </div>
+    <Layout>
+      <Navbar />
+      <Layout.Content>
+        <AppRouter />
+      </Layout.Content>
+    </Layout>
   );
 };
 
