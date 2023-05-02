@@ -3,14 +3,15 @@ import { Header } from "antd/es/layout/layout";
 import React, { FC } from "react";
 import { RouteNames } from "../routes";
 import { useNavigate } from "react-router-dom";
+import { useTypedSelector } from "../hooks/useTypedSelector";
 
 const Navbar: FC = () => {
   const navigate = useNavigate();
-  const auth = true;
+  const { isAuth } = useTypedSelector((state) => state.auth);
   return (
     <Header>
       <Row justify="end">
-        {auth ? (
+        {isAuth ? (
           <>
             <div style={{ color: "white" }}>Volkovich</div>
             <Menu theme="dark" mode="horizontal" selectable={false}>
