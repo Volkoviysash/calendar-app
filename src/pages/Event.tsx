@@ -4,16 +4,23 @@ import EventCalendar from "../components/EventCalendar";
 import EventForm from "../components/EventForm";
 import { useActions } from "../hooks/useActions";
 import { useTypedSelector } from "../hooks/useTypedSelector";
+import { create } from "domain";
+import { IEvent } from "../models/IEvent";
 
 const Event: FC = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
-  const { fetchGuests } = useActions();
-  const { guests } = useTypedSelector((state) => state.event);
+  const { fetchGuests, createEvent } = useActions();
+  const { guests, events } = useTypedSelector((state) => state.event);
 
   useEffect(() => {
     fetchGuests();
   }, []);
+
+  const addNewEvent = (event: IEvent) => {
+    setIsModalOpen(false);
+    createEvent(event);
+  };
 
   return (
     <Layout>
@@ -27,7 +34,7 @@ const Event: FC = () => {
         footer={null}
         onCancel={() => setIsModalOpen(false)}
       >
-        <EventForm guests={guests} />
+        <EventForm submit={addNewEvent} guests={guests} />
       </Modal>
     </Layout>
   );
