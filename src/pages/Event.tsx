@@ -27,7 +27,7 @@ const Event: FC = () => {
 
   return (
     <Layout>
-      <EventCalendar events={[]} />
+      <EventCalendar events={events} />
       <Row justify="center">
         <Button onClick={() => setIsModalOpen(true)}>Add event</Button>
       </Row>
