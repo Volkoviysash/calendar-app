@@ -1,47 +1,25 @@
-# Getting Started with Create React App
+<div align='center'>
+  <h1>Event calendar</h1>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2>About the project</h2>
 
-## Available Scripts
+  <p>My event calendar is a powerful tool that allows me to stay organized and keep track of upcoming events, deadlines, and important dates. With a user-friendly interface and a range of customizable options, I can easily add, edit, and delete events as needed, ensuring that I never miss an important appointment or deadline again. My event calendar also provides helpful reminders and notifications, so I can stay on top of my schedule and make the most of my time. Whether I'm managing my work schedule, planning social events, or keeping track of important milestones, my event calendar is a versatile and indispensable tool that helps me stay organized and stay on track.</p>
 
-In the project directory, you can run:
+👉 Live Demo: <a href='*'>Live Demo</a>
 
-### `npm start`
+<h3>Build with:</h3>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+» React JS <br>
+» Redux <br>
+» Typescript <br>
+» Antdesign <br>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-# calendar-app
+<h2>Screenshots of the Project 📸</h2>
+<br>
+<h3 align='center'>Auth page</h3>
+ <img src='https://user-images.githubusercontent.com/90283311/236710275-164308a0-de25-4ec5-b98a-53fb97fcdd4e.png' />
+<h3 align='center'>Main page</h3>
+ <img src='https://user-images.githubusercontent.com/90283311/236710284-afb20a86-7b55-4d9d-b71a-31e5a815cad2.png' />
+<h3 align='center'>Main page 2</h3>
+ <img src='https://user-images.githubusercontent.com/90283311/236710317-ac4fb901-2118-4b38-8f89-3ae9d9b7ca47.png' />
